@@ -4,6 +4,7 @@
 
     <application
         android:allowBackup="true"
+        android:name=".MyApp"
         android:icon="@mipmap/swooshlauncher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -16,9 +17,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".LeagueActivity"></activity>
     </application>
 
 </manifest>
